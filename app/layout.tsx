@@ -5,15 +5,14 @@ import Topbar from "@/components/shared/topbar";
 import Footer from "@/components/shared/footer";
 import ThemeContextProvider from "@/context/theme-context";
 import { TooltipProvider } from '@radix-ui/react-tooltip';
-import Image from "next/image";
 
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "The HOM Network",
-  description: "The Homeschool Online Meetup Network",
+  title: "Self Love Club | Wilmington, NC",
+  description: "Self Love Club massage and bodyworks | Wilmington, North Carolina",
 };
 
 export default function RootLayout({
