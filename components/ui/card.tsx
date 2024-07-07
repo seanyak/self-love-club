@@ -16,7 +16,7 @@ const Card: React.FC<CardProps> = ({ title, image, children, className }) => (
         alt={title || 'Card image'}
         className="card-image"
         layout="responsive"
-        width={500} // You can adjust these values according to your requirements
+        width={500} 
         height={300}
       />
     )}
@@ -27,6 +27,6 @@ const Card: React.FC<CardProps> = ({ title, image, children, className }) => (
   </div>
 );
 
-Card.displayName = 'Card'; // Add a display name for better debugging
+Card.displayName = 'Card'; 
 
 export default Card;
