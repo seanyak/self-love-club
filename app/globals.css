@@ -1,0 +1,178 @@
+/* globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* main */
+  .main-container {
+    @apply flex min-h-screen w-screen flex-1 flex-col items-center px-0 pb-10 pt-0 max-md:pb-32 sm:px-0;
+  }
+
+  /* Head Text */
+  .head-text {
+    @apply text-heading2-bold text-dark-1;
+  }
+
+  .hero-image {
+    @apply w-screen items-center -z-50;
+  }
+
+  .topbar {
+    @apply fixed top-0 z-30 flex w-full bg-white px-1 py-1;
+  }
+}
+
+@layer utilities {
+  .css-invert {
+    @apply invert-[50%] brightness-200;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #09090a;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #5c5c7b;
+    border-radius: 50px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #7878a3;
+  }
+}
+
+/* Tab */
+.tab {
+  @apply flex min-h-[50px] flex-1 items-center gap-3 bg-light-2 text-dark-2 data-[state=active]:bg-[#f5fcfc] data-[state=active]:text-dark-2 !important;
+}
+
+.no-focus {
+  @apply focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
+}
+
+/* Account Profile  */
+.account-form_image-label {
+  @apply flex h-24 w-24 items-center justify-center rounded-full bg-light-4 !important;
+}
+
+.account-form_image-input {
+  @apply cursor-pointer border-none bg-transparent outline-none file:text-blue !important;
+}
+
+.account-form_input {
+  @apply border border-light-4 bg-light-3 text-dark-1 !important;
+}
+
+.newsletter-form, .newsletter-input, .newsletter-btn {
+  margin: auto;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.newsletter-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 420px;
+}
+
+.newsletter-btn[type="submit"] {
+  background-color: #0069ca;
+  border: 1px solid #ccc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+/* Comment Form */
+.comment-form {
+  @apply mt-10 flex items-center gap-4 border-y border-y-light-4 py-5 max-xs:flex-col !important;
+}
+
+.comment-form_btn {
+  @apply rounded-3xl bg-primary-500 px-8 py-2 !text-small-regular text-dark-1 max-xs:w-full !important;
+}
+
+.footer-title {
+  @apply text-heading3-bold font-bold mb-2;
+}
+
+.tooltip-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  width: 300px;
+}
+
+.hours-section {
+  @apply py-12 pt-12 scroll-mt-28 text-center;
+}
+
+.hours-container {
+  @apply mx-auto shadow-md rounded-lg overflow-hidden;
+}
+
+.hour-item {
+  @apply px-6 py-4;
+}
+
+.day-name {
+  @apply text-heading2-semibold font-medium text-dark-2;
+}
+
+.time-range {
+  @apply text-body1-bold text-dark-3;
+}
+
+.section-title {
+  @apply text-heading1-bold font-bold mb-6;
+}
+
+.location-section {
+  @apply text-center;
+}
+
+.contact-container {
+  @apply max-w-lg mx-auto shadow-lg rounded-lg overflow-hidden p-6;
+}
+
+.address-container, .phone-container {
+  @apply mb-6;
+}
+
+.icon {
+  @apply inline-block text-primary-500;
+}
+
+.mt-screen {
+  margin-top: 100vh; 
+}
+
+/* Background Component */
+.background {
+  @apply w-[100vw] h-[100vh] fixed top-0 left-0 -z-50;
+}
+
+.bg-image {
+  object-fit: cover;
+  object-position: center;
+}
