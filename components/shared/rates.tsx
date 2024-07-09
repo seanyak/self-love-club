@@ -1,12 +1,28 @@
+'use client'
+
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { RateCards, rates } from '@/lib/data';
+import {motion} from 'framer-motion';
 
 const Rates = () => {
   return (
     <section className='Rates-section'>
-        
+    <motion.div
+              initial={{
+                opacity: 0,
+              }}
+              whileInView={{
+                opacity: 1,
+              }}
+              transition={{
+                duration: 1,
+              }}
+              viewport={{
+                once: true,
+              }}
+              >
       <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-9'>
         {RateCards.map((path, index) => (
           <div key={index} className='p-5 rounded-lg shadow-md bg-[#f8fafc] hover:bg-green-100'>
@@ -24,7 +40,7 @@ const Rates = () => {
         
       </div>
       <Image src="/assets/slc_hrt05.svg" width={129} height={129} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto pt-11"/>
-
+      </motion.div>
     </section>
   );
 };

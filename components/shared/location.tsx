@@ -6,10 +6,25 @@ import SectionHeading from "./section-heading";
 import { MapPin, Phone, Mail } from "react-feather";
 import Image from "next/image";
 import Link from "next/link";
+import {motion} from 'framer-motion';
 
 const Location = () => {
   return (
     <section className="location-section text-center pb-11">
+    <motion.div
+              initial={{
+                opacity: 0,
+              }}
+              whileInView={{
+                opacity: 1,
+              }}
+              transition={{
+                duration: 1,
+              }}
+              viewport={{
+                once: true,
+              }}
+              >
       <SectionHeading>Location</SectionHeading>
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:w-[60vw] mx-auto">
         <div className="map-container w-full lg:w-1/2 max-w-[80vw] lg:max-w-none">
@@ -58,6 +73,7 @@ const Location = () => {
           </div>
         </div>
       </div>
+      </motion.div>
     </section>
   );
 };

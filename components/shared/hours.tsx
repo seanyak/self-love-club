@@ -5,11 +5,26 @@ import { hours } from "@/lib/data";
 import SectionHeading from "./section-heading";
 import Link from "next/link";
 import Image from "next/image";
+import {motion} from 'framer-motion';
 
 
 const Hours = () => {
   return (
     <section className="hours-section pt-12 scroll-mt-28 text-center">
+        <motion.div
+              initial={{
+                opacity: 0,
+              }}
+              whileInView={{
+                opacity: 1,
+              }}
+              transition={{
+                duration: 1,
+              }}
+              viewport={{
+                once: true,
+              }}
+              >
       <SectionHeading>Hours</SectionHeading>
       <p className="font-thin">BY APPOINTMENT ONLY</p>
       <Link href="https://book.squareup.com/appointments/ztx8b05cyeal1q/location/L74GM8H49A0WS/services?buttonTextColor=000000&color=a9fae0&locale=en&referrer=so">
@@ -29,7 +44,7 @@ const Hours = () => {
       </div>
       </Link>
       <Image src="/assets/slc_hrt04.svg" width={129} height={129} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto pt-11"/>
-
+      </motion.div>
     </section>
   );
 };
