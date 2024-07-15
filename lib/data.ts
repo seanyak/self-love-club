@@ -92,37 +92,37 @@ export const hours = [
     {
         day: "Monday",
         start: "9:00 AM",
-        end: "6:00 PM",
+        end: "3:00 PM",
     },
     {
         day: "Tuesday",
         start: "9:00 AM",
-        end: "6:00 PM",
+        end: "3:00 PM",
     },
     {
         day: "Wenesday",
-        start: "9:00 AM",
-        end: "6:00 PM",
+        start: "11:00 AM",
+        end: "5:00 PM",
     },
     {
         day: "Thursday",
-        start: "9:00 AM",
-        end: "6:00 PM",
+        start: "10:00 AM",
+        end: "4:00 PM",
     },
     {
         day: "Friday",
-        start: "9:00 AM",
-        end: "6:00 PM",
+        start: " ",
+        end: "closed",
     },
     {
         day: "Saturday",
-        start: "9:00 AM",
-        end: "6:00 PM",
+        start: " ",
+        end: "closed",
     },
     {
         day: "Sunday",
         start: "9:00 AM",
-        end: "6:00 PM",
+        end: "3:00 PM",
     },
 ] as const;
 
