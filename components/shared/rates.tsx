@@ -23,7 +23,7 @@ const Rates = () => {
                 once: true,
               }}
               >
-      <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-9'>
+      <div className='grid lg:grid-cols-3 gap-9'>
         {RateCards.map((path, index) => (
           <div key={index} className='p-5 rounded-lg shadow-md bg-[#f8fafc] hover:bg-green-100'>
             <Link href="https://book.squareup.com/appointments/ztx8b05cyeal1q/location/L74GM8H49A0WS/services?buttonTextColor=000000&color=a9fae0&locale=en&referrer=so">

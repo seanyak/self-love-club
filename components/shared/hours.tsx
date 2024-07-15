@@ -34,8 +34,8 @@ const Hours = () => {
             <li key={index} className="hour-item px-6 py-4">
               <div className="flex justify-between items-center">
                 <span className="day-name text-lg p-4 font-medium text-dark-2">{hour.day}</span>
-                <span className="time-range text-lg p-4 mt-2 text-dark-3">
-                  {hour.start} - {hour.end}
+                <span className="time-range font-medium p-4 mt-2 text-dark-3">
+                  {hour.start}{hour.end}
                 </span>
               </div>
             </li>

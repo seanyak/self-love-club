@@ -140,7 +140,7 @@
 }
 
 .time-range {
-  @apply text-body1-bold text-dark-3;
+  @apply text-dark-3;
 }
 
 .section-title {

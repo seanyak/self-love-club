@@ -52,28 +52,21 @@ export const services = [
 
   export const rates = [
     {
-      rate: "$60",
-      duration: "30 minutes",
-      description:
-        "30 minutes of personalized bodywork, perfectly tailored to your unique needs! Discover the benefits of my treatment sessions at SLC.",
-      card: "./assets/slc_rates30.png",
-    },
-    {
-      rate: "$90",
+      rate: "$80",
       duration: "60 minutes",
       description:
-        "A personalized one-hour bodywork session, meticulously tailored to you. Prior to your session, we'll discuss your needs and preferences. Discover a customized wellness journey that prioritizes your well-being.",
+        "A personalized one-hour bodywork session, perfectly tailored to you. Prior to your session, we'll discuss your needs and preferences. Discover a customized wellness journey that prioritizes your well-being.",
       card: "./assets/slc_rates60.png",
     },
     {
-      rate: "$120",
+      rate: "$110",
       duration: "90 minutes",
       description:
         "90-minute customized bodywork and massage treatment designed to meet your unique needs. I will personalize the session based on your preferences and requirements, ensuring a relaxing and rejuvenating experience. Schedule your appointment today!",
       card: "./assets/slc_rates90.png",
     },
     {
-      rate: "$150",
+      rate: "$115",
       duration: "120 minutes",
       description:
         "Indulge in a comprehensive TWO-HOUR customized bodywork session, tailored to address your unique needs and preferences.",
@@ -82,7 +75,6 @@ export const services = [
   ] as const;
 
 export const RateCards = [
-    '/assets/slc_rateCard030.png',
     "/assets/slc_rateCard060.png",
     "/assets/slc_rateCard090.png",
     "/assets/slc_rateCard120.png",
@@ -92,37 +84,37 @@ export const hours = [
     {
         day: "Monday",
         start: "9:00 AM",
-        end: "3:00 PM",
+        end: "- 3:00 PM",
     },
     {
         day: "Tuesday",
         start: "9:00 AM",
-        end: "3:00 PM",
+        end: "- 3:00 PM",
     },
     {
         day: "Wenesday",
         start: "11:00 AM",
-        end: "5:00 PM",
+        end: "- 5:00 PM",
     },
     {
         day: "Thursday",
         start: "10:00 AM",
-        end: "4:00 PM",
+        end: "- 4:00 PM",
     },
     {
         day: "Friday",
-        start: " ",
-        end: "closed",
+        start: "C L O S E D",
+        end: " ",
     },
     {
         day: "Saturday",
-        start: " ",
-        end: "closed",
+        start: "C L O S E D",
+        end: " ",
     },
     {
         day: "Sunday",
         start: "9:00 AM",
-        end: "3:00 PM",
+        end: "- 3:00 PM",
     },
 ] as const;
 
