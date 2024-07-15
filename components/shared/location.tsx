@@ -29,10 +29,10 @@ const Location = () => {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:w-[60vw] mx-auto">
         <div className="map-container w-full lg:w-1/2 max-w-[80vw] lg:max-w-none">
           <Link 
-            href="https://www.google.com/maps/dir/?api=1&destination=1608+Queen+St+Wilmington+NC+28401"
+            href="https://maps.app.goo.gl/mnm1Ufz5Gax8cney9"
             target="_blank">
             <Image
-              src='/assets/slc_map.png'
+              src='/assets/self-love-club-603-S-9th-st.png'
               alt='Self Love Club | location map'
               width={400}
               height={400}

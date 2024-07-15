@@ -23,8 +23,10 @@ const Title = () => {
             <p className="mb-10 mt-4 px-4 !leading-[1.5] sm:text-4xl">
                 <span className=" text-[90px] font-black tracking-widest">SELF LOVE CLUB</span><br />
                 <span className=" text-[48px] font-semibold tracking-widest">Bodyworks & Massage Therapy</span><br />
-                <span className=" text-[47px] font-extralight tracking-widest">of Wilmington</span>
-                <span className=" text-[29px] italic font-light tracking-widest"> located in The Cargo District</span>.</p>
+                <span className=" text-[46px] font-extralight tracking-widest">of Wilmington</span>
+                <span className=" text-[25px] italic font-light tracking-widest p-3"> located off 
+                <span className=" text-[44px] font-bold tracking-widest"> Castle<span className="not-italic font-extralight tracking-widest p-2">X</span>9th</span>
+                </span></p>
                 <Image src="/assets/slc_hrt01.svg" width={88} height={88} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto"/>
             </div>
         </motion.div>

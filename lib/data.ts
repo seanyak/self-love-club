@@ -127,7 +127,7 @@ export const hours = [
 ] as const;
 
 export const location = {
-    street: "1608 Queen St",
+    street: "603 S. 9th Street",
     city: "Wilmington",
     state: "NC",
     zip: "28401",
