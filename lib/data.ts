@@ -92,7 +92,7 @@ export const hours = [
         end: "- 3:00 PM",
     },
     {
-        day: "Wenesday",
+        day: "Wednesday",
         start: "11:00 AM",
         end: "- 5:00 PM",
     },
