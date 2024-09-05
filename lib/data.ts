@@ -98,17 +98,17 @@ export const hours = [
     },
     {
         day: "Thursday",
+        start: " C L O S E D ",
+        end: "",
+    },
+    {
+        day: "Friday",
         start: "10:00 AM",
         end: "- 4:00 PM",
     },
     {
-        day: "Friday",
-        start: "C L O S E D",
-        end: " ",
-    },
-    {
         day: "Saturday",
-        start: "C L O S E D",
+        start: " C L O S E D ",
         end: " ",
     },
     {

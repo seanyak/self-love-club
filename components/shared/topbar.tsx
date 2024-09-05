@@ -21,9 +21,9 @@ function Topbar() {
                 </Link>
             </div>
             <div className="book-btn flex items-center sm:w-1/3 sm:justify-end sm:order-last order-last mt-2 sm:mt-0">
-            <Button onClick={handleClick} variant="default" size="xl">
-                Book Now
-            </Button>
+                <Button onClick={handleClick} variant="default" size="xl">
+                    Book Now
+                </Button>
             </div>
         </nav>
     );
