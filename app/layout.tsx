@@ -4,7 +4,9 @@ import { Inter } from "next/font/google";
 import Topbar from "@/components/shared/topbar";
 import Footer from "@/components/shared/footer";
 import ThemeContextProvider from "@/context/theme-context";
+import { ThemeProvider } from "@/components/shared/theme-provider";
 import { TooltipProvider } from '@radix-ui/react-tooltip';
+import ThemeToggle from "@/components/shared/theme-toggle";
 
 import "./globals.css";
 
@@ -27,11 +29,14 @@ export default function RootLayout({
         className={`${inter.className} bg-gray-50 text-gray-950 relative dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
           <main className='flex flex-row'>
             <section className='main-container'>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <Topbar />
             <TooltipProvider>
               {children}
+            <ThemeToggle />
             </TooltipProvider>
             <Footer />
+            </ThemeProvider>
             </section>
           </main>
         </body>
