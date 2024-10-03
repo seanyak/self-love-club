@@ -33,7 +33,7 @@ async function Blog() {
 
         <Link  href="/blog/why-massage-should-be-part-of-your-marathon-training" className="flex mx-auto font-black p-4">Why Massage Should Be Part of Your Marathon Training</Link>
 
-        <Link  href="/blog/why-neck-pain-is-so-common-and-how-massage-helps" className="flex mx-auto font-black p-4">Why Neck Pain Is So Common and How Massage Helps</Link>
+        <Link  href="/blog/why-neck-pain-is-so-common-and-how-massage-helps" className="flex mx-auto font-black p-4 pb-4">Why Neck Pain Is So Common and How Massage Helps</Link>
         <br />
         <br />
         <br />
