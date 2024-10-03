@@ -33,7 +33,6 @@ export default function RootLayout({
             <Topbar />
             <TooltipProvider>
               {children}
-            <ThemeToggle />
             </TooltipProvider>
             <Footer />
             </ThemeProvider>
