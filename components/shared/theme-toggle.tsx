@@ -10,7 +10,7 @@ export default function ThemeToggle() {
 
   return (
     <button
-      className='pl-5 pr-3 pb-12 hover:rounded-sm hover:bg-muted'
+      className='pt-3 pr-3 pb-3 pl-5 hover:rounded-sm hover:bg-muted'
       onClick={() => {
         startTransition(() => {
           setTheme(theme === 'light' ? 'dark' : 'light')

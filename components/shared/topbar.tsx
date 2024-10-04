@@ -10,11 +10,14 @@ function Topbar() {
         window.location.href = 'https://book.squareup.com/appointments/ztx8b05cyeal1q/location/L74GM8H49A0WS/services?buttonTextColor=000000&color=a9fae0&locale=en&referrer=so'; 
       };
     return (
-        <nav className="topbar dark:bg-[#63b5c7] flex flex-col sm:flex-row justify-between items-center px-2 py-1 bg-opacity-90 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem]">
+        <nav className="topbar dark:bg-[#39404c] flex flex-col sm:flex-row justify-between items-center px-2 py-1 bg-opacity-90 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem]">
             <div className="home-icon flex items-center sm:w-1/3">
                 <Link href="/" className="flex">
                     <Image src="/assets/slc_sqLogo.png" alt="logo" width={47} height={47} className="hidden sm:block" />
                 </Link>
+                <div className="hidden sm:block">
+                    <ThemeToggle />
+                </div>
             </div>
             <div className="bus-name flex items-center sm:w-1/3">
                 <Link href="/blog" className="flex mx-auto pl-0 sm:pl-10 pt-2">
