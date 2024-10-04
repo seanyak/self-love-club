@@ -28,7 +28,7 @@ const Hours = () => {
       <SectionHeading>Hours</SectionHeading>
       <p className="font-thin">BY APPOINTMENT ONLY</p>
       <Link href="https://book.squareup.com/appointments/ztx8b05cyeal1q/location/L74GM8H49A0WS/services?buttonTextColor=000000&color=a9fae0&locale=en&referrer=so">
-      <div className="hours-container bg-slate-50 dark:bg-[#dae7db] mx-auto x`xrounded-lg overflow-hidden">
+      <div className="hours-container bg-[#fde7e3] dark:bg-[#dae7db] mx-auto x`xrounded-lg overflow-hidden">
         <ul className="divide-y divide-light-4">
           {hours.map((hour, index) => (
             <li key={index} className="hour-item px-6 py-4">
@@ -43,7 +43,7 @@ const Hours = () => {
         </ul>
       </div>
       </Link>
-      <Image src="/assets/slc_hrt04.svg" width={129} height={129} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto pt-11 dark:invert"/>
+      <Image src="/assets/slc_hrt04.svg" width={129} height={129} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto pt-11 dark:filter dark:invert dark:brightness-[.7] dark:saturate-[1.48] dark:hue-rotate-[180deg]"/>
       </motion.div>
     </section>
   );

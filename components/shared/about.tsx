@@ -30,7 +30,7 @@ const About = () => {
           <span className="not-italic font-bold pl-8">- Amanda / Owner</span>
         </p>
         </motion.div>
-        <Image src="/assets/slc_hrt03.svg" width={129} height={129} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto pt-11 dark:invert"/>
+        <Image src="/assets/slc_hrt03.svg" width={129} height={129} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto pt-11 dark:filter dark:invert dark:brightness-[.7] dark:saturate-[1.48] dark:hue-rotate-[180deg]"/>
 
       </section>
     );
