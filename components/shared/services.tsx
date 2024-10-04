@@ -46,7 +46,7 @@ export default function Services() {
         <ul className="flex flex-wrap justify-center text-5xl gap-2 text-gray-800">
             {services.map((service, index) => (
             <motion.li
-                className="bg-slate-50 hover:bg-[#c1cbbe] border-dark-1 rounded-xl px-2 py-2 shadow-sm "
+                className="bg-slate-50 hover:bg-[#ffb9a7] border-dark-1 rounded-xl px-2 py-2 shadow-sm dark:bg-[#dbe8da] dark:hover:bg-[#ffb9a7]"
                 key={index}
                 variants={fadeInAnimationVariants}
                 initial="initial"
