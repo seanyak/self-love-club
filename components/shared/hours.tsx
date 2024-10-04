@@ -43,7 +43,7 @@ const Hours = () => {
         </ul>
       </div>
       </Link>
-      <Image src="/assets/slc_hrt04.svg" width={129} height={129} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto pt-11"/>
+      <Image src="/assets/slc_hrt04.svg" width={129} height={129} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto pt-11 dark:invert"/>
       </motion.div>
     </section>
   );

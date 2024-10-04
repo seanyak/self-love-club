@@ -27,7 +27,7 @@ const Title = () => {
                 <span className=" text-[25px] italic font-light tracking-widest p-3"> located off 
                 <span className=" text-[44px] font-bold tracking-widest"> Castle<span className="not-italic font-extralight tracking-widest p-2">X</span>9th</span>
                 </span></p>
-                <Image src="/assets/slc_hrt01.svg" width={88} height={88} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto"/>
+                <Image src="/assets/slc_hrt01.svg" width={88} height={88} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto dark:invert"/>
             </div>
         </motion.div>
       );

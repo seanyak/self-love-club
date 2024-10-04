@@ -46,7 +46,7 @@ export default function Services() {
         <ul className="flex flex-wrap justify-center text-5xl gap-2 text-gray-800">
             {services.map((service, index) => (
             <motion.li
-                className="bg-slate-50 hover:bg-sky-200 border-dark-1 rounded-xl px-2 py-2 shadow-sm"
+                className="bg-slate-50 hover:bg-[#c1cbbe] border-dark-1 rounded-xl px-2 py-2 shadow-sm "
                 key={index}
                 variants={fadeInAnimationVariants}
                 initial="initial"
@@ -62,7 +62,7 @@ export default function Services() {
             </motion.li>
             ))}
         </ul>
-        <Image src="/assets/slc_hrt02.svg" width={129} height={129} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto pt-11"/>
+        <Image src="/assets/slc_hrt02.svg" width={129} height={129} alt="Self Love Club massage and bodyworks | Wilmington, NC" className="mx-auto pt-11 dark:invert"/>
       </motion.div>
     </section>
   );

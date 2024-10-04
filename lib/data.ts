@@ -75,9 +75,9 @@ export const services = [
   ] as const;
 
 export const RateCards = [
-    "/assets/slc_rateCard060.png",
-    "/assets/slc_rateCard090.png",
-    "/assets/slc_rateCard120.png",
+    "/assets/slc_rate060.png",
+    "/assets/slc_rate090.png",
+    "/assets/slc_rate120.png",
   ];
 
 export const hours = [
