@@ -13,10 +13,6 @@ async function Blog() {
       <Background />
       <h1 className="pageTitle text-4.4rem sm:text-2.2rem font-black pt-29 pb-12">SELF LOVE BLOG</h1>
       <BlogFeed />
-      <Services />
-      <Hours />
-      <Location />
-      <ThemeToggle />
     </section>
   );
 }

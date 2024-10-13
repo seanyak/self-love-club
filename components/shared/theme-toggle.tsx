@@ -18,9 +18,9 @@ export default function ThemeToggle() {
       }}
     >
       {theme === 'dark' ? (
-        <Moon strokeWidth={2} size={22} />
+        <Moon strokeWidth={2} size={22} className='text-[#bec0e9]' />
       ) : (
-        <Sun strokeWidth={2} size={22} />
+        <Sun strokeWidth={2} size={22} className='text-[#fbf6d1]'/>
       )}
     </button>
   )

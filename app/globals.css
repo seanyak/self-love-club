@@ -20,7 +20,7 @@
   }
 
   .topbar {
-    @apply fixed top-0 z-30 flex w-full bg-[#d8e3d1] px-1 py-1;
+    @apply fixed top-0 z-30 flex w-full bg-[#ebf1e8] px-1 py-1 shadow-xl;
   }
 }
 

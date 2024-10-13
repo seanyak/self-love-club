@@ -21,7 +21,7 @@ async function Home() {
       <Rates />
       <Hours />
       <Location />
-      <ThemeToggle />
+      
     </section>
   );
 }

@@ -13,7 +13,7 @@ function Topbar() {
         <nav className="topbar dark:bg-[#dbe8da] flex flex-col sm:flex-row justify-between items-center px-3 py-1 bg-opacity-90 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem]">
             <div className="home-icon flex items-center sm:w-1/3">
                 <Link href="/" className="flex">
-                    <Image src="/assets/slc_sqLogo.png" alt="logo" width={47} height={47} className="hidden sm:block" />
+                    <Image src="/assets/slc_icon.png" alt="logo" width={47} height={47} className="hidden sm:block" />
                 </Link>
                 <div className="hidden sm:block">
                     <ThemeToggle />
