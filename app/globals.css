@@ -16,11 +16,11 @@
   }
 
   .hero-image {
-    @apply w-screen items-center -z-50;
+    @apply w-screen items-center -z-50 shadow-2xl;
   }
 
   .topbar {
-    @apply fixed top-0 z-30 flex w-full bg-white px-1 py-1;
+    @apply fixed top-0 z-30 flex w-full bg-[#d8e3d1] px-1 py-1;
   }
 }
 
@@ -136,11 +136,11 @@
 }
 
 .day-name {
-  @apply text-heading2-semibold font-medium text-dark-2;
+  @apply text-heading2-semibold font-medium text-light-2;
 }
 
 .time-range {
-  @apply text-dark-3;
+  @apply text-light-3;
 }
 
 .section-title {

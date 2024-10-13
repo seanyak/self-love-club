@@ -21,7 +21,7 @@ function Topbar() {
             </div>
             <div className="bus-name flex items-center sm:w-1/3">
                 <Link href="/blog" className="flex mx-auto pl-0 sm:pl-10 pt-2">
-                    <Image src="/assets/slc_title.png" alt="title" width={283} height={47} />
+                    <Image src="/assets/slc_title.png" alt="title" width={600} height={72} />
                 </Link>
             </div>
             <div className="book-btn flex items-center sm:w-1/3 sm:justify-end sm:order-last order-last mt-2 sm:mt-0">

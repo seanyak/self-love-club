@@ -26,7 +26,7 @@ export default function RootLayout({
     <ThemeContextProvider>
       <html lang='en'>
       <body 
-        className={`${inter.className} bg-gray-50 text-gray-950 relative dark:bg-[#425044] dark:text-gray-50 dark:text-opacity-90`}>
+        className={`${inter.className} bg-chart-1 text-gray-950 relative dark:bg-[#425044] dark:text-gray-50 dark:text-opacity-90`}>
           <main className='flex flex-row'>
             <section className='main-container'>
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>

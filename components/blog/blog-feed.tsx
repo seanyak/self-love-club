@@ -46,7 +46,7 @@ export default function BlogFeed() {
 
                 {blogPost.map((post, index) => (
                 <motion.li
-                    className="bg-slate-50 hover:bg-[#f4f0bf] dark:hover:bg-[#ffaa7c] border-dark-1 rounded-xl px-2 py-2 shadow-sm  dark:bg-[#dbe8da"
+                    className="bg-slate-50 hover:bg-[#b3c058] dark:hover:bg-[#999f46] border-dark-1 rounded-xl px-2 py-2 shadow-sm  dark:bg-[#dbe8da"
                     key={index}
                     variants={fadeInAnimationVariants}
                     initial="initial"
@@ -58,7 +58,7 @@ export default function BlogFeed() {
                         <Link
                             key={post.url}
                             href={post.url}
-                            className="mx-auto flex p-4 hover:text-teal-700"
+                            className="mx-auto flex p-4 hover:text-[#413f16]"
                         >
                             {post.title}
                         </Link>
