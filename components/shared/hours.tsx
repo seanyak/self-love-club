@@ -28,13 +28,13 @@ const Hours = () => {
       <SectionHeading>Hours</SectionHeading>
       <p className="font-thin">BY APPOINTMENT ONLY</p>
       <Link href="https://book.squareup.com/appointments/ztx8b05cyeal1q/location/L74GM8H49A0WS/services?buttonTextColor=000000&color=a9fae0&locale=en&referrer=so">
-      <div className="hours-container bg-[#8ca436] dark:bg-[#dae7db] mx-auto x`xrounded-lg overflow-hidden">
+      <div className="hours-container bg-[#649149] dark:text-[#dae7db] dark:bg-[#566753] mx-auto x`xrounded-lg overflow-hidden">
         <ul className="divide-y divide-light-4">
           {hours.map((hour, index) => (
-            <li key={index} className="hour-item px-6 py-4">
+            <li key={index} className="hour-item px-6 py-4 hover:bg-[#566753]">
               <div className="flex justify-between items-center">
-                <span className="day-name text-lg p-4 font-medium text-light-2 dark:text-dark-2">{hour.day}</span>
-                <span className="time-range font-medium p-4 mt-2 text-light-3 dark:text-dark-3">
+                <span className="day-name text-lg p-4 font-medium text-light-2 dark:text-[#dae7db]">{hour.day}</span>
+                <span className="time-range font-medium p-4 mt-2 text-light-3 dark:text-[#dae7db]">
                   {hour.start}{hour.end}
                 </span>
               </div>

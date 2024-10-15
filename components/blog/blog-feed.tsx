@@ -46,7 +46,7 @@ export default function BlogFeed() {
 
                 {blogPost.map((post, index) => (
                 <motion.li
-                    className="bg-slate-50 hover:bg-[#b3c058] dark:hover:bg-[#999f46] border-dark-1 rounded-xl px-2 py-2 shadow-sm  dark:bg-[#dbe8da"
+                    className="bg-slate-50 hover:bg-[#649149] dark:hover:bg-[#649149] border-dark-1 rounded-xl px-2 py-2 shadow-sm  dark:bg-[#dbe8da]"
                     key={index}
                     variants={fadeInAnimationVariants}
                     initial="initial"

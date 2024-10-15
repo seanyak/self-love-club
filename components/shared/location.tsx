@@ -10,7 +10,7 @@ import {motion} from 'framer-motion';
 
 const Location = () => {
   return (
-    <section className="location-section text-center pb-11">
+    <section className="location-section text-center pb-14">
     <motion.div
               initial={{
                 opacity: 0,
