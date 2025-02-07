@@ -40,13 +40,12 @@ export default function BlogFeed() {
                   once: true,
                   }}
               >
-            <SectionHeading>BLOG POSTS</SectionHeading>
-            <section className="max-w-4xl tracking-widest mx-auto pb-9 font-black text-xl">
+            <section className="max-w-4xl tracking-widest mx-auto pb-9 px-2 font-black text-xl">
             <ul className="flex flex-wrap justify-center text-5xl gap-2 text-gray-800">
 
                 {blogPost.map((post, index) => (
                 <motion.li
-                    className="bg-slate-50 hover:bg-[#649149] dark:hover:bg-[#649149] border-dark-1 rounded-xl px-2 py-2 shadow-sm  dark:bg-[#dbe8da]"
+                    className="bg-slate-50 hover:bg-[#649149] dark:hover:bg-[#649149] border-dark-1 rounded-full px-2 py-2 shadow-sm  dark:bg-[#dbe8da]"
                     key={index}
                     variants={fadeInAnimationVariants}
                     initial="initial"

@@ -66,7 +66,7 @@ export const services = [
       card: "./assets/slc_rates90.png",
     },
     {
-      rate: "$115",
+      rate: "$150",
       duration: "120 minutes",
       description:
         "Indulge in a comprehensive TWO-HOUR customized bodywork session, tailored to address your unique needs and preferences.",
