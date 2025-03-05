@@ -52,32 +52,40 @@ export const services = [
 
   export const rates = [
     {
-      rate: "$80",
+      rate: "$90",
       duration: "60 minutes",
       description:
         "A personalized one-hour bodywork session, perfectly tailored to you. Prior to your session, we'll discuss your needs and preferences. Discover a customized wellness journey that prioritizes your well-being.",
       card: "./assets/slc_rates60.png",
     },
     {
-      rate: "$110",
+      rate: "$105",
+      duration: "90 minutes",
+      description:
+        "Personalized bodywork, tailored to your unique needs.",
+      card: "./assets/slc_rates_075.png",
+    },
+    {
+      rate: "$120",
       duration: "90 minutes",
       description:
         "90-minute customized bodywork and massage treatment designed to meet your unique needs. I will personalize the session based on your preferences and requirements, ensuring a relaxing and rejuvenating experience. Schedule your appointment today!",
       card: "./assets/slc_rates90.png",
     },
     {
-      rate: "$150",
+      rate: "$160",
       duration: "120 minutes",
       description:
         "Indulge in a comprehensive TWO-HOUR customized bodywork session, tailored to address your unique needs and preferences.",
-      card: "./assets/slc_rates120.png",
+      card: "./assets/slc_rates_120.png",
     },
   ] as const;
 
 export const RateCards = [
     "/assets/slc_rate060.png",
+    "/assets/slc_rates_075.png",
     "/assets/slc_rate090.png",
-    "/assets/slc_rate120.png",
+    "/assets/slc_rates_120.png",
   ];
 
 export const hours = [
