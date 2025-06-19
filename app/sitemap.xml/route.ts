@@ -1,22 +1,39 @@
-import { getAllBlogSlugs } from "@/lib/getBlogSlugs";
-import { type MetadataRoute } from "next";
+// app/sitemap.xml/route.ts
 
-export default function sitemap(): MetadataRoute.Sitemap {
+import fs from "fs";
+import path from "path";
+
+export async function GET(): Promise<Response> {
   const baseUrl = "https://www.selfloveclub-ilm.com";
 
-  const staticRoutes = [
-    {
-      url: `${baseUrl}/`,
-      lastModified: new Date().toISOString(),
-    },
+  const blogDir = path.join(process.cwd(), "data/blog");
+  const files = fs.readdirSync(blogDir);
+
+  const blogSlugs = files
+    .filter((file) => file.endsWith(".mdx"))
+    .map((file) => file.replace(/\.mdx$/, ""));
+
+  const urls = [
+    `${baseUrl}/`,
+    ...blogSlugs.map((slug) => `${baseUrl}/blog/${slug}`),
   ];
 
-  const blogSlugs = getAllBlogSlugs();
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    ${urls
+      .map(
+        (url) => `
+      <url>
+        <loc>${url}</loc>
+        <lastmod>${new Date().toISOString()}</lastmod>
+      </url>`
+      )
+      .join("\n")}
+  </urlset>`;
 
-  const blogRoutes = blogSlugs.map((slug) => ({
-    url: `${baseUrl}/blog/${slug}`,
-    lastModified: new Date().toISOString(), // optionally use frontmatter date
-  }));
-
-  return [...staticRoutes, ...blogRoutes];
+  return new Response(xml, {
+    headers: {
+      "Content-Type": "application/xml",
+    },
+  });
 }
