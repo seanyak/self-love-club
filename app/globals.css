@@ -202,8 +202,14 @@
   font-size: 4.4rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .titleLoc {
+    font-size:2.8rem;
+  };
+}
+
+@media (max-width: 800px) {
   .titleLoc {
     font-size:1.8rem;
   };
-};
+}
