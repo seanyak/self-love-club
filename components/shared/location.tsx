@@ -29,11 +29,11 @@ const Location = () => {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:w-[60vw] mx-auto">
         <div className="map-container w-full lg:w-1/2 max-w-[80vw] lg:max-w-none">
           <Link 
-            href="https://maps.app.goo.gl/mnm1Ufz5Gax8cney9"
+            href={location.gMap}
             target="_blank">
             <Image
-              src='/assets/self-love-club-603-S-9th-st.png'
-              alt='Self Love Club | location map'
+              src='/assets/self-love-club-2121-Wrightsville-Ave-Wilmington.png'
+              alt='Self Love Club | 2121 Wrightsville Ave. Wilmington North Carolina 28403'
               width={400}
               height={400}
               className='object-cover w-full h-full rounded-lg shadow-lg'
@@ -43,7 +43,7 @@ const Location = () => {
         <div className="contact-container w-full lg:w-1/2 max-w-[80vw] lg:max-w-none bg-slate-50 shadow-lg rounded-lg overflow-hidden p-6">
           <div className="address-container mb-6">
             <Link 
-              href="https://www.google.com/maps/dir/?api=1&destination=1608+Queen+St+Wilmington+NC+28401"
+              href={location.gMap}
               target="_blank">
               <MapPin className="icon inline-block text-primary-500" size={24} />
               <h3 className="text-xl font-semibold text-dark-2 mt-4">Visit Us</h3>

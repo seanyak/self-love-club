@@ -127,10 +127,11 @@ export const hours = [
 ] as const;
 
 export const location = {
-    street: "603 S. 9th Street",
+    street: "2121 Wrightsville Ave.",
     city: "Wilmington",
     state: "NC",
-    zip: "28401",
+    zip: "28403",
+    gMap: "https://maps.app.goo.gl/c14cjtjdyBHBXo7V8",
 }; 
 
 export const tel = {
