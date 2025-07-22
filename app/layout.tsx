@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Self Love Club | Wilmington, NC",
-  description: "Self Love Club massage and bodyworks | Wilmington, North Carolina",
+  description: "Discover the best massage in Wilmington, NC at Self Love Club Bodyworks & Massage. Amanda offers personalized, therapeutic bodywork—including myofascial release, deep tissue, cupping, craniosacral, and more—to help you feel your best. Locals and visitors alike rave about her intuitive touch, anatomy expertise, and transformative results. Prioritize your self-care today!",
 };
 
 export default function RootLayout({
