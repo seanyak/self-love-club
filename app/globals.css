@@ -198,6 +198,16 @@
   padding-bottom:3rem;
 }
 
+.titleAdd {
+  font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+  .titleAdd {
+    font-size:2.8rem;
+  };
+}
+
 .titleLoc {
   font-size: 4.4rem;
 }
@@ -208,8 +218,8 @@
   };
 }
 
-@media (max-width: 800px) {
-  .titleLoc {
+@media (max-width: 900px) {
+  .titleLoc, .titleAdd {
     font-size:1.8rem;
   };
 }

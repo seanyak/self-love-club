@@ -27,20 +27,7 @@ const Location = () => {
               >
       <SectionHeading>Location</SectionHeading>
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:w-[60vw] mx-auto">
-        <div className="map-container w-full lg:w-1/2 max-w-[80vw] lg:max-w-none">
-          <Link 
-            href={location.gMap}
-            target="_blank">
-            <Image
-              src='/assets/self-love-club-2121-Wrightsville-Ave-Wilmington.png'
-              alt='Self Love Club | 2121 Wrightsville Ave. Wilmington North Carolina 28403'
-              width={400}
-              height={400}
-              className='object-cover w-full h-full rounded-lg shadow-lg'
-            />
-          </Link>
-        </div>
-        <div className="contact-container w-full lg:w-1/2 max-w-[80vw] lg:max-w-none bg-slate-50 shadow-lg rounded-lg overflow-hidden p-6">
+        <div className="contact-container lg:w-1/2 w-[420px] h-[420px] lg:max-w-none bg-slate-50 shadow-lg rounded-lg overflow-hidden p-6">
           <div className="address-container mb-6">
             <Link 
               href={location.gMap}
@@ -71,6 +58,30 @@ const Location = () => {
               </a>
             </p>
           </div>
+        </div>
+        <div className="map-container w-[420px] h-[420px] lg:max-w-none shadow-lg rounded-lg">
+          <Link 
+            href={location.gMap}
+            target="_blank">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6597.424334867748!2d-77.9203256!3d34.230367099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89a9f564cd7d33f3%3A0x50787e46b922b8e3!2s2121%20Wrightsville%20Ave%2C%20Wilmington%2C%20NC%2028403!5e0!3m2!1sen!2sus!4v1753198784535!5m2!1sen!2sus"
+                width="420"
+                height="420"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>            
+            {/* 
+            <Image
+              src='/assets/self-love-club-2121-Wrightsville-Ave-Wilmington.png'
+              alt='Self Love Club | 2121 Wrightsville Ave. Wilmington North Carolina 28403'
+              width={400}
+              height={400}
+              className='object-cover w-full h-full rounded-lg shadow-lg'
+            />
+            */}
+          </Link>
         </div>
       </div>
       </motion.div>

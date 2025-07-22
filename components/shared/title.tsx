@@ -23,7 +23,7 @@ const Title = () => {
             <p className="text-center ">
                 <span className=" text-[90px] font-black tracking-widest">SELF LOVE CLUB</span><br />
                 <span className=" text-[48px] font-black  md:font-semibold tracking-widest">Bodyworks & Massage Therapy</span><br />
-                <span className="text-[64px] font-bold tracking-wide md:tracking-widest">2121 Wrightsville Ave.</span><br />
+                <span className="titleAdd font-bold tracking-wide sm:tracking-widest">2121 Wrightsville Ave.</span><br />
                 <span className="titleLoc font-black tracking-[.5rem] md:tracking-[2.2rem]">Wilmington</span>
 
               </p>
