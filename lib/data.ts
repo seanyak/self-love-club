@@ -101,13 +101,13 @@ export const hours = [
     },
     {
         day: "Wednesday",
-        start: "11:00 AM",
-        end: "- 5:00 PM",
+        start: " C L O S E D ",
+        end: " ",
     },
     {
         day: "Thursday",
-        start: " C L O S E D ",
-        end: "",
+        start: "11:00 AM",
+        end: "- 5:00 PM",
     },
     {
         day: "Friday",
