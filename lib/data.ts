@@ -63,7 +63,7 @@ export const services = [
       duration: "90 minutes",
       description:
         "Personalized bodywork, tailored to your unique needs.",
-      card: "./assets/slc_rates_075.png",
+      card: "./assets/slc_rates075.png",
     },
     {
       rate: "$120",
@@ -77,7 +77,7 @@ export const services = [
       duration: "120 minutes",
       description:
         "Indulge in a comprehensive TWO-HOUR customized bodywork session, tailored to address your unique needs and preferences.",
-      card: "./assets/slc_rates_120.png",
+      card: "./assets/slc_rates120.png",
     },
   ] as const;
 
