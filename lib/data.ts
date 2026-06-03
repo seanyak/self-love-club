@@ -56,28 +56,28 @@ export const services = [
       duration: "60 minutes",
       description:
         "A personalized one-hour bodywork session, perfectly tailored to you. Prior to your session, we'll discuss your needs and preferences. Discover a customized wellness journey that prioritizes your well-being.",
-      card: "./assets/slc_rates_060.png",
+      card: "/assets/slc_rates_060.png",
     },
     {
       rate: "$120",
       duration: "90 minutes",
       description:
         "Personalized bodywork, tailored to your unique needs.",
-      card: "./assets/slc_rates_075.png",
+      card: "/assets/slc_rates_075.png",
     },
     {
       rate: "$135",
       duration: "90 minutes",
       description:
         "90-minute customized bodywork and massage treatment designed to meet your unique needs. I will personalize the session based on your preferences and requirements, ensuring a relaxing and rejuvenating experience. Schedule your appointment today!",
-      card: "./assets/slc_rates_090.png",
+      card: "/assets/slc_rates_090.png",
     },
     {
       rate: "$180",
       duration: "120 minutes",
       description:
         "Indulge in a comprehensive TWO-HOUR customized bodywork session, tailored to address your unique needs and preferences.",
-      card: "./assets/slc_rates_120.png",
+      card: "/assets/slc_rates_120.png",
     },
   ] as const;
 
